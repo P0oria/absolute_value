@@ -11,7 +11,7 @@ int absolute_value(int x) {
 }
 
 int main() {
-  int my_num = 5;
+  int my_num = -5;
   printf("The absolute value of %d is %d.\n", my_num,
          absolute_value(my_num));
 }
